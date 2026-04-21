@@ -1,0 +1,26 @@
+Model Evaluation
+Timestamp: 2026-04-20 20:08:14.067765
+
+-- Logistic Regression --
+Accuracy: 0.5236
+Confusion Matrix:
+[[ 96 137]
+ [115 181]]
+
+-- XGBoost --
+Accuracy: 0.5085
+Confusion Matrix:
+[[ 93 140]
+ [120 176]]
+
+-- PyTorch --
+Accuracy: 0.5539
+Confusion Matrix:
+[[ 39 194]
+ [ 42 254]]
+
+
+-- Next Trading Day Prediction: 2026-04-21 --
+Logistic Regression: UP ^
+XGBoost: DOWN v
+PyTorch: UP ^

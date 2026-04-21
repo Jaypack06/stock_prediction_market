@@ -1,6 +1,0 @@
-Model Evaluation
-Timestamp: 2026-02-02 09:31:25.433940
-Accuracy: 0.5294117647058824
-Confusion Matrix:
-[[0 8]
- [0 9]]

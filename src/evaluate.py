@@ -1,7 +1,9 @@
 from sklearn.metrics import accuracy_score, confusion_matrix
 
-def evaluate_model(model, X_test, y_test):
-    predictions = model.predict(X_test)
-    accuracy = accuracy_score(y_test, predictions)
-    matrix = confusion_matrix(y_test, predictions)
-    return accuracy, matrix
+def evaluate_model(results):
+    evaluations = {}
+    for model_name, data in results.items():
+        accuracy = accuracy_score(data["y_test"], data["predictions"])
+        matrix   = confusion_matrix(data["y_test"], data["predictions"])
+        evaluations[model_name] = {"accuracy": accuracy, "matrix": matrix}
+    return evaluations
