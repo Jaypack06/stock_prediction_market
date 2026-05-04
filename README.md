@@ -1,6 +1,6 @@
 # Stock Market Prediction
 
-A machine learning pipeline that predicts day-to-day IBM stock price movement using three models: Logistic Regression, XGBoost, and a PyTorch Neural Network.
+A machine learning pipeline that predicts day-to-day IBM stock (or other stock depending on valid symbol) price movement using three models: Logistic Regression, XGBoost, and a PyTorch Neural Network.
 
 ---
 
