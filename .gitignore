@@ -29,7 +29,7 @@ results/
 .DS_Store
 Thumbs.db
 
-# Distribution / packaging
+# Distribution / packaging files
 dist/
 build/
 *.egg-info/
